@@ -14,7 +14,7 @@ function transformEnvVarsToString(envVars) {
 		return `${key}=${value}`;
 	});
 
-	return output.join("\r\n");
+	return output.join("\n");
 }
 
 module.exports = transformEnvVarsToString;
